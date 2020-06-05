@@ -1,5 +1,5 @@
 import pandas as pd
-from base_data import Dataset
+from .base_data import Dataset
 
 def read_ethnicity_data(data_url:str)->pd.DataFrame:
     """Reads and cleans the 2011 census data on ethnicity break down by local authority.

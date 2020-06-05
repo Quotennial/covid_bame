@@ -1,5 +1,5 @@
 import pandas as pd
-from base_data import Dataset
+from .base_data import Dataset
 
 def read_facebook_data(url:str)->pd.DataFrame:
     covid_df = pd.read_excel(url, sheet_name="L4-LTLA",
