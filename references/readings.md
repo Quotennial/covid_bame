@@ -1,0 +1,1 @@
+[Guardian Article](https://www.theguardian.com/commentisfree/2020/jun/04/genetics-bame-people-die-coronavirus-structural-racism)
