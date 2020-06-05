@@ -1,7 +1,7 @@
 Impact of COVID-19 on UK BAME population
 ==============================
 
-COVID-19 has disproportionately affected the BAME population in the UK. Unlike the USA, healthcare is universally accessible through NHS, so imbalances may be the result of deeper socio-economic issues. This repo aims to bring together and analyse relevant socio-economic data to help explain this imbalance.
+COVID-19 has disproportionately affected the BAME population in the UK. Unlike the USA, healthcare is universally accessible through NHS so imbalances may be the result of deeper socio-economic issues. This repo aims to bring together and analyse relevant socio-economic data to help explain this imbalance.
 
 ## Current Data 
 
@@ -16,6 +16,8 @@ COVID-19 has disproportionately affected the BAME population in the UK. Unlike t
 
 # Running the Repo
 TODO
+
+Just want to see what we've come up with? Check out [reports](reports)
 
 # Contributing
 Yes please! The repo is structured as to separate the data getting and cleaning from the analysis. So whichever area you would like to contribute to please do. If you're just getting into python, I will be producing some example notebooks so have a look through [those](notebooks). I would really appreciate any comments or suggestions for the repo :)
