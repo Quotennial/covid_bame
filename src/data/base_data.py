@@ -23,7 +23,7 @@ class Dataset():
         else:
             print("Downloading and cleaning External Data")
             raw_df = tailored_func(self.data_url)
-            raw_df.to_csv(path)
+            raw_df.to_csv(path, index=False)
             self.df = raw_df.set_index(self.lad_col)
 
 
