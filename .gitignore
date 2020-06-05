@@ -1,5 +1,7 @@
 venv
 .DS_Store
-references
+.vscode
 .ipynb_checkpoints
+__pycache__
 geog
+references
