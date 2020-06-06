@@ -9,9 +9,10 @@ def read_facebook_data(url:str)->pd.DataFrame:
     return covid_df
 
 
-# TODO put these config variables in some config file
-fbook_data_name = "fbook_covid_deaths"
-fbook_filepath = "data/external/COVID-19 UK Cases.xlsx"
-fbook_lad = "LTLA Name"
-fbook_covid_deaths = Dataset(data_name=fbook_data_name, data_url= fbook_filepath, lad_col=fbook_lad)
-fbook_covid_deaths.read_data(read_facebook_data)
+if __name__ == "main": 
+    # TODO put these config variables in some config file
+    fbook_data_name = "fbook_covid_deaths"
+    fbook_filepath = "data/external/COVID-19 UK Cases.xlsx"
+    fbook_lad = "LTLA Name"
+    fbook_covid_deaths = Dataset(data_name=fbook_data_name, data_url= fbook_filepath, lad_col=fbook_lad)
+    fbook_covid_deaths.read_data(read_facebook_data)

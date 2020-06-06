@@ -1,3 +1,4 @@
+from config import ROOT_DIR
 from typing import Callable
 import pandas as pd
 import os
@@ -18,7 +19,9 @@ class Dataset():
         # TODO add description and maybe original url?
 
     def read_data(self, tailored_func: Callable) -> None:
-        path = f"data/interim/clean_{self.data_name}.csv"
+        path = f"{ROOT_DIR}/../../data/interim/clean_{self.data_name}.csv"
+        # path = f"src/data/interim/clean_{self.data_name}.csv"
+        # path = f"{self.data_name}.csv"
         if os.path.exists(path):  # if there is a clean version already
             print("Found local clean copy")
             self.df = pd.read_csv(path)

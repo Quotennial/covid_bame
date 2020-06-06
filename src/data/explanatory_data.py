@@ -25,10 +25,14 @@ def read_ethnicity_data(data_url: str) -> pd.DataFrame:
     return race_df
 
 
-# TODO put these config variables in some config file
-ethnic_data_name = "ethnicity_2011"
-ethnic_url = "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/ethnic-population-by-local-authority.csv"
-ethnic_lad = "Geography_name"
-ethnicity_data = Dataset(data_name=ethnic_data_name,
-                         data_url=ethnic_url, lad_col=ethnic_lad)
-ethnicity_data.read_data(read_ethnicity_data)
+if __name__ == "__main__":
+
+    # TODO put these config variables in some config file
+    ethnic_data_name = "ethnicity_2011"
+    ethnic_url = "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/ethnic-population-by-local-authority.csv"
+    ethnic_lad = "Geography_name"
+    ethnicity_data = Dataset(data_name=ethnic_data_name,
+                            data_url=ethnic_url, lad_col=ethnic_lad)
+    ethnicity_data.read_data(read_ethnicity_data)
+
+
