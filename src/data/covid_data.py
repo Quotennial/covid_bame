@@ -1,6 +1,6 @@
 import pandas as pd
 #TODO fix this relative import and linting`
-from base_data import Dataset
+from data_classes import Dataset
 
 def read_facebook_data(url:str)->pd.DataFrame:
     covid_df = pd.read_excel(url, sheet_name="L4-LTLA",

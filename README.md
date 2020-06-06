@@ -26,6 +26,7 @@ Repo structure based on the [cookiecutter data science project template]("https:
 
 ## Backlog 
 Repo
+- create master data imoprt sequence that is then accessible from notebooks
 - pick a local authority boundary http://geoportal.statistics.gov.uk/datasets/ae90afc385c04d869bc8cf8890bd1bcd_1 
 - make data import routines - all based around LAD. Then can select which data to import
 - select which coronavirus data is used?
