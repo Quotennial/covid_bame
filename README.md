@@ -16,7 +16,18 @@ COVID-19 has disproportionately affected the BAME population in the UK. Unlike t
 
 
 # Running the Repo
-TODO
+- git clone the repo
+- `pip install -r requirements.txt`
+- to start the data import - run `src/data/datastore.py`
+- then can import cleaned data from `data/interim`
+- to use notebooks;
+```python
+import datastore
+datastore.lib # gives list of data sets e.g. ['ethnicity_data', 'fbook_covid_data']
+datastore.ethnicity_data.data_url # url of original source
+datastore.ethnicity_data.df # the data as a dataframe
+```
+
 
 Just want to see what we've come up with? Check out [reports](reports)
 
@@ -26,13 +37,6 @@ Yes please! The repo is structured to separate the data *getting and cleaning* f
 Repo structure based on the [cookiecutter data science project template]("https://drivendata.github.io/cookiecutter-data-science/)
 
 ## Backlog 
-Repo
-- create master data imoprt sequence that is then accessible from notebooks
-- pick a local authority boundary http://geoportal.statistics.gov.uk/datasets/ae90afc385c04d869bc8cf8890bd1bcd_1 
-- make data import routines - all based around LAD. Then can select which data to import
-- select which coronavirus data is used?
-
-Features
 - use altair for visualisations
 - add incidence of amminites (such as super markets?)
 - care home and job data

@@ -11,6 +11,20 @@ fbook_covid_deaths_dict = {"name": "fbook_covid_deaths",
                     "geog_col":"LTLA Name"}
 
 
+
 lad_dict = {"name": "Local_Authority_Districts__December_2009__Boundaries",
                     "url": "https://opendata.arcgis.com/datasets/5e14c6bedc8740d19683517e5e902057_3.geojson",
                     "geog_col":"geometry"}
+
+
+bame_cases_dict = {"name": "BAME_report_cases",
+                    "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/889167/Disparities_risks_outcomes_of_COVID19_data_pack.ods",
+                    "geog_col": "Area Name"}
+
+bame_deaths_dict = {"name": "BAME_report_deaths",
+                    "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/889167/Disparities_risks_outcomes_of_COVID19_data_pack.ods",
+                    "geog_col": "Area Name"}
+
+bame_excess_deaths_dict = {"name": "bame_excess_deaths",
+                    "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/889167/Disparities_risks_outcomes_of_COVID19_data_pack.ods",
+                    "geog_col": "Area Name"}

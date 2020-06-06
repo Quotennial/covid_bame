@@ -25,7 +25,7 @@ class Dataset():
             print(f"Found local clean copy of {self.data_name}")
             self.df = pd.read_csv(path)
         else:
-            print("Downloading and cleaning External Data")
+            print(f"Downloading and cleaning External Data {self.data_name}")
             raw_df = tailored_func(self.data_url)
             raw_df.to_csv(path, index=False)
             self.df = raw_df.set_index(self.lad_col)
