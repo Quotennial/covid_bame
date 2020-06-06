@@ -25,4 +25,4 @@ ethnicity_data = gen_obj(config.ethnicity_dict, read_ethnicity_data)
 fbook_covid_data = gen_obj(config.fbook_covid_deaths_dict, read_facebook_data)
 lad_geog = gen_geog_obj(config.lad_dict)
 
-lib = [ethnicity_data, fbook_covid_data, lad_geog]
+lib = ["ethnicity_data", "fbook_covid_data", "lad_geog"]
