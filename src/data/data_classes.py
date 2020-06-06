@@ -1,6 +1,7 @@
 from config import ROOT_DIR
 from typing import Callable
 import pandas as pd
+import geopandas as gpd
 import os
 
 
@@ -20,14 +21,23 @@ class Dataset():
 
     def read_data(self, tailored_func: Callable) -> None:
         path = f"{ROOT_DIR}/../../data/interim/clean_{self.data_name}.csv"
-        # path = f"src/data/interim/clean_{self.data_name}.csv"
-        # path = f"{self.data_name}.csv"
         if os.path.exists(path):  # if there is a clean version already
-            print("Found local clean copy")
+            print(f"Found local clean copy of {self.data_name}")
             self.df = pd.read_csv(path)
         else:
             print("Downloading and cleaning External Data")
             raw_df = tailored_func(self.data_url)
             raw_df.to_csv(path, index=False)
             self.df = raw_df.set_index(self.lad_col)
+
+class GeogData(Dataset):
+    def read_data(self) -> None:
+        path = f"{ROOT_DIR}/../../data/geog/{self.data_name}.geojson"
+        if os.path.exists(path):  # if there is a clean version already
+            print(f"Found local clean copy of {self.data_name}")
+            self.gdf = gpd.read_file(path)
+        else:
+            print("Unable to locate geoJSON, please make sure it is in the geog file and name is correct")
+
+        
 
