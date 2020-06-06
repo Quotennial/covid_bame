@@ -33,7 +33,7 @@ Just want to see what we've come up with? Check out [reports](reports)
 # Contributing
 Yes please! The repo is structured to separate the data *getting and cleaning* from the *analysis*. So feel free to pick what suits you. If you're just getting into python, I will be producing some example notebooks, so have a look through [those](notebooks). Always appreciate any comments or suggestions for the repo, any suggestions about datasets, analysis or features please raise an issue. 
  
-Repo structure based on the [cookiecutter data science project template]("https://drivendata.github.io/cookiecutter-data-science/)
+Repo structure based on the [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/)
 
 ## Backlog 
 - use altair for visualisations
