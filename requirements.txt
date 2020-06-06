@@ -1,6 +1,7 @@
 descartes==1.1.0
 geopandas==0.7.0
 pandas==1.0.4
+pysal==2.2.0
 requests==2.23.0
 seaborn==0.10.1
 xlrd==1.2.0

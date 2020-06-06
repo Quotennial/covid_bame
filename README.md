@@ -1,7 +1,7 @@
 Impact of COVID-19 on UK BAME population
 ==============================
 
-COVID-19 has disproportionately affected the BAME population in the UK. Unlike the USA, healthcare is universally accessible through NHS so imbalances may be the result of deeper socio-economic issues. This repo aims to bring together and analyse relevant socio-economic data to help explain this imbalance.
+COVID-19 has disproportionately affected the BAME population in the UK. Unlike the USA, healthcare is universally accessible through NHS. So there may be deeper socio-economic issues leaving this group more exposed to coronovirus and other negative shocks. This repo aims to bring together and analyse relevant socio-economic data to help explain this imbalance.
 
 ## Current Data 
 
@@ -12,6 +12,7 @@ COVID-19 has disproportionately affected the BAME population in the UK. Unlike t
 ## Data Pipeline 
 - Data uses in the [UK COVID BAME report](https://www.gov.uk/government/publications/covid-19-review-of-disparities-in-risks-and-outcomes)
 - Amenities from OSM?
+- Wealth of LAD
 
 
 # Running the Repo
@@ -20,7 +21,7 @@ TODO
 Just want to see what we've come up with? Check out [reports](reports)
 
 # Contributing
-Yes please! The repo is structured as to separate the data getting and cleaning from the analysis. So whichever area you would like to contribute to please do. If you're just getting into python, I will be producing some example notebooks so have a look through [those](notebooks). I would really appreciate any comments or suggestions for the repo :)
+Yes please! The repo is structured to separate the data *getting and cleaning* from the *analysis*. So feel free to pick what suits you. If you're just getting into python, I will be producing some example notebooks, so have a look through [those](notebooks). Always appreciate any comments or suggestions for the repo, any suggestions about datasets, analysis or features please raise an issue. 
  
 Repo structure based on the [cookiecutter data science project template]("https://drivendata.github.io/cookiecutter-data-science/)
 
