@@ -10,7 +10,7 @@ This repo aims to bring together and analyse spatial data relevant to the impact
 
 - **Ethnicity Census data** gives ethnicity breakdown by local authoratitive region [2011 census](https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest#data-sources)
 - **Furlough Data**
-- **Key Workers Data**
+- **Key Workers Data**[link](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/keyworkersreferencetables)
 
 ## Data Backlog 
 - Amenities from OSM?
