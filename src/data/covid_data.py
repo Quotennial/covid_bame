@@ -1,4 +1,6 @@
 import pandas as pd
+import requests
+from config import ROOT_DIR
 from data_classes import Dataset
 
 def read_facebook_data(url:str)->pd.DataFrame:
@@ -19,15 +21,19 @@ def read_bame_exces_deaths(url:str)->pd.DataFrame:
     cases_df = pd.read_excel(url, engine="odf", sheet_name="Table_2c", skiprows=7, nrows=161)
     return cases_df
 
+def read_ons_deaths(url:str)->pd.DataFrame:
+    r = requests.get(url)
+    fpath = f"{ROOT_DIR}/../../data/external/ons_covid.xlsx"
+    with open(fpath, 'wb') as outfile:
+        outfile.write(r.content)
+    cases_df = pd.read_excel(fpath, sheet_name="Table 2", skiprows=4, nrows=390)
+    cases_df.drop(['Unnamed: 6', 'Unnamed: 9', 'Unnamed: 12'], axis=1, inplace =True)
+    cases_df.columns = ["Sex","Geography","Area code","Area name", 
+                    "all_Deaths", "all_Rate", "all Lower CI", "all Upper CI", 
+                    "covid_Deaths", "covid_Rate", "covid Lower CI", "covid Upper CI"]
+
+    return cases_df
 
 
-if __name__ == "main": 
-    # TODO put these config variables in some config file
-    fbook_data_name = "fbook_covid_deaths"
-    fbook_filepath = "data/external/COVID-19 UK Cases.xlsx"
-    fbook_lad = "LTLA Name"
-    fbook_covid_deaths = Dataset(data_name=fbook_data_name, data_url= fbook_filepath, lad_col=fbook_lad)
-    fbook_covid_deaths.read_data(read_facebook_data)
-
-    df = pd.read_excel(path, engine="odf", sheet_name="Table_2a", skiprows=6, nrows=160).head()
-    print(df)
+if __name__ == "main":
+    pass

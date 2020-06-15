@@ -1,4 +1,5 @@
 import pandas as pd
+import requests
 from data_classes import Dataset
 
 
@@ -23,6 +24,23 @@ def read_ethnicity_data(data_url: str) -> pd.DataFrame:
     race_df.columns.name = None  # remove column name
 
     return race_df
+
+def read_furlough_data(url:str) -> pd.DataFrame:
+    df = pd.read_excel(url, sheet_name="5. Local Authority", skiprows=5, nrows=480)
+    df.dropna(thresh=3, inplace=True)
+    df.drop(df.columns[0], axis=1, inplace=True)
+    df.columns = ["Area Code", "Area Name", "total_furloughed"]
+    return df
+
+def read_key_workers(url:str)->pd.DataFrame:
+    r = requests.get(url)
+    fpath = f"keyworkers.xlsx"
+    with open(fpath, 'wb') as outfile:
+        outfile.write(r.content)
+    df = pd.read_excel(fpath, sheet_name="Table 19", skiprows=4, nrows=378)
+    df.drop(df.columns[3:], axis=1, inplace =True)
+    df.columns = ["Area Name", "total_key_workers", "pct_of_pop"]
+    return df
 
 
 if __name__ == "__main__":

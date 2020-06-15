@@ -28,3 +28,15 @@ bame_deaths_dict = {"name": "BAME_report_deaths",
 bame_excess_deaths_dict = {"name": "bame_excess_deaths",
                     "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/889167/Disparities_risks_outcomes_of_COVID19_data_pack.ods",
                     "geog_col": "Area Name"}
+
+ons_deaths_dict = {"name": "ons_deaths",
+            "url":"https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fbirthsdeathsandmarriages%2fdeaths%2fdatasets%2fdeathsinvolvingcovid19bylocalareaanddeprivation%2f1march2020to17april2020/referencetablesdraft.xlsx",
+            "geog_col":"Area Name"}
+
+furlough_dict = {"name": "furlough_data",
+            "url":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/891607/Coronavirus_Job_Retention_Scheme_Statistics_Tables_June_2020.xlsx",
+            "geog_col":"Area Name"}
+
+key_workers_dict = {"name": "key_workers",
+            "url":"https://www.ons.gov.uk/file?uri=%2femploymentandlabourmarket%2fpeopleinwork%2fearningsandworkinghours%2fdatasets%2fkeyworkersreferencetables%2fcurrent/keyworkersreferencetableupdated.xlsx",
+            "geog_col":"Area Name"}

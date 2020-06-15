@@ -1,9 +1,10 @@
 Impact of COVID-19 on UK BAME population
 ==============================
 
-COVID-19 has disproportionately affected the BAME population in the UK. Unlike the USA, healthcare is universally accessible through NHS. So there may be deeper socio-economic issues leaving this group more exposed to coronovirus and other negative shocks. This repo aims to bring together and analyse relevant socio-economic data to help explain this imbalance.
+This repo aims to bring together and analyse data relevant to the impact of COVID-19 on UK BAME population. COVID-19 has disproportionately affected the BAME population in the UK. Unlike the USA, healthcare is universally accessible through NHS. So there may be deeper socio-economic issues leaving this group more exposed to coronovirus and other negative shocks. This repo aims to bring together and analyse relevant socio-economic data to help explain this imbalance.
 
 ## Current Data 
+- **Covid Deaths**: ONS [Deaths involving COVID](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/deathsinvolvingcovid19intheuk)
 - **Covid Deaths**: - Data used in the [UK COVID BAME report](https://www.gov.uk/government/publications/covid-19-review-of-disparities-in-risks-and-outcomes)
 - **Covid Deaths**: Subnational level data is used from the amazing Yin Lin who curates this data daily: [Daily updated facebook page](https://www.facebook.com/groups/224857015370702/)
 
