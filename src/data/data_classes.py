@@ -23,7 +23,7 @@ class Dataset():
         path = f"{ROOT_DIR}/../../data/interim/clean_{self.data_name}.csv"
         if os.path.exists(path):  # if there is a clean version already
             print(f"Found local clean copy of {self.data_name}")
-            self.df = pd.read_csv(path)
+            self.df = pd.read_csv(path).set_index(self.lad_col)
         else:
             print(f"Downloading and cleaning External Data {self.data_name}")
             raw_df = tailored_func(self.data_url)
