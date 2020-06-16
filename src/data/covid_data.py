@@ -28,7 +28,7 @@ def read_ons_deaths(url:str)->pd.DataFrame:
         outfile.write(r.content)
     cases_df = pd.read_excel(fpath, sheet_name="Table 2", skiprows=4, nrows=390)
     cases_df.drop(['Unnamed: 6', 'Unnamed: 9', 'Unnamed: 12'], axis=1, inplace =True)
-    cases_df.columns = ["Sex","Geography","Area code","Area name", 
+    cases_df.columns = ["Sex","Geography","Area code","Area Name", 
                     "all_Deaths", "all_Rate", "all Lower CI", "all Upper CI", 
                     "covid_Deaths", "covid_Rate", "covid Lower CI", "covid Upper CI"]
 

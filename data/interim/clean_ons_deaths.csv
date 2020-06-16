@@ -1,4 +1,4 @@
-Sex,Geography,Area code,Area name,all_Deaths,all_Rate,all Lower CI,all Upper CI,covid_Deaths,covid_Rate,covid Lower CI,covid Upper CI
+Sex,Geography,Area code,Area Name,all_Deaths,all_Rate,all Lower CI,all Upper CI,covid_Deaths,covid_Rate,covid Lower CI,covid Upper CI
 Persons,Unitary Authority,E06000001,Hartlepool,154,170.7,143.5,197.8,29,31,20.7,44.5
 Persons,Unitary Authority,E06000002,Middlesbrough,289,256,226.1,286,89,79,63.2,97.6
 Persons,Unitary Authority,E06000003,Redcar and Cleveland,215,142.6,123.5,161.8,40,26.5,18.9,36.2

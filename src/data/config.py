@@ -7,7 +7,7 @@ ethnicity_dict = {"name": "ethnicity_2011",
                     "geog_col":"Geography_name"}
 
 fbook_covid_deaths_dict = {"name": "fbook_covid_deaths",
-                    "url": "data/external/COVID-19 UK Cases.xlsx",
+                    "url": f"{ROOT_DIR}/../../data/external/COVID-19 UK Cases.xlsx",
                     "geog_col":"LTLA Name"}
 
 
