@@ -37,8 +37,6 @@ Yes please! The repo is structured to separate the data *getting and cleaning* f
 Repo structure based on the [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/)
 
 ## Backlog 
-- use altair for visualisations
 - add incidence of amminites (such as super markets?)
 - care home and job data
 - use causality approaches
-- https://geographicdata.science/book/intro 
