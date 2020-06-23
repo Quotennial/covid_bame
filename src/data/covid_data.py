@@ -5,7 +5,7 @@ from data_classes import Dataset
 
 def read_facebook_data(url:str)->pd.DataFrame:
     covid_df = pd.read_excel(url, sheet_name="L4-LTLA",
-                        usecols="B:AJ").dropna(subset=['Population (ONS estimates mid-2018)'])
+                        usecols="B:BB").dropna(subset=['Population (ONS estimates mid-2018)'])
     covid_df.columns = covid_df.columns.astype(str)
     return covid_df
 
