@@ -1,7 +1,9 @@
 Impact of COVID-19 on UK BAME population
 ==============================
 
-This repo aims to bring together and analyse spatial data relevant to the impact of COVID-19 on UK BAME population. COVID-19 has disproportionately affected the BAME population in the UK. Unlike the USA, healthcare is universally accessible through NHS. So there may be deeper socio-economic issues leaving this group more exposed to coronovirus and other negative shocks. This repo aims to bring together and analyse relevant socio-economic data to help explain this imbalance.
+This repo aims to bring together and analyse spatial data relevant to the impact of COVID-19 on UK BAME population. COVID-19 has disproportionately affected the BAME population in the UK. Unlike the USA, healthcare is universally accessible through NHS. So there may be deeper socio-economic issues leaving this group more exposed to the impacts of coronovirus. This repo aims to bring together and analyse relevant socio-economic data to help explain this imbalance.
+
+Just want to see what we've come up with? Check out [reports](reports), otherwise clone the repo and get the data!
 
 ## Current Data 
 - **Covid Deaths**: ONS [Deaths involving COVID](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/deathsinvolvingcovid19intheuk)
@@ -16,17 +18,16 @@ This repo aims to bring together and analyse spatial data relevant to the impact
 - Amenities from OSM?
 - Wealth of LAD?
 
-Just want to see what we've come up with? Check out [reports](reports), otherwise clone the repo and get the data!
 
 # Running the Repo
-- git clone the repo
+- clone the repo
 - `pip install -r requirements.txt`
 - to start the data import - run `src/data/datastore.py`
-- then can import cleaned data from `data/interim`
-- to use in notebooks;
+- then can import processed data ins csv form from `data/interim`
+- **or** to use in notebooks;
 ```python
 import datastore
-datastore.lib # gives list of data sets e.g. ['ethnicity_data', 'fbook_covid_data']
+datastore.lib # gives list of datasets 
 datastore.ethnicity_data.data_url # url of original source
 datastore.ethnicity_data.df # the data as a dataframe
 ```

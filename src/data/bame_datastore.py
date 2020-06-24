@@ -24,7 +24,7 @@ def gen_geog_obj(data_attr: dict):
 ethnicity_data = gen_obj(config.ethnicity_dict, read_ethnicity_data)
 lad_geog = gen_geog_obj(config.lad_dict)
 
-fbook_covid_data = gen_obj(config.fbook_covid_deaths_dict, read_facebook_data)
+fbook_covid_data = gen_obj(config.fbook_covid_cases_dict, read_facebook_data)
 bame_rpt_cases = gen_obj(config.bame_cases_dict, read_bame_cases)
 bame_rpt_deaths = gen_obj(config.bame_deaths_dict, read_bame_deaths)
 bame_rpt_excess_deaths = gen_obj(config.bame_excess_deaths_dict, read_bame_exces_deaths)
@@ -37,5 +37,11 @@ lib = {"mortality": ["fbook_covid_data", "bame_rpt_deaths", "bame_rpt_excess_dea
     "other":["lad_geog"]}
 
 if __name__ == "main":
-    pass
+    fbook_covid_data = gen_obj(config.fbook_covid_cases_dict, read_facebook_data)
+    bame_rpt_cases = gen_obj(config.bame_cases_dict, read_bame_cases)
+    bame_rpt_deaths = gen_obj(config.bame_deaths_dict, read_bame_deaths)
+    bame_rpt_excess_deaths = gen_obj(config.bame_excess_deaths_dict, read_bame_exces_deaths)
+    ons_deaths = gen_obj(config.ons_deaths_dict, read_ons_deaths)
+    furlough_data = gen_obj(config.furlough_dict, read_furlough_data)
+    key_workers = gen_obj(config.key_workers_dict, read_key_workers)
     

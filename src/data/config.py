@@ -6,7 +6,7 @@ ethnicity_dict = {"name": "ethnicity_2011",
                     "url": "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/ethnic-population-by-local-authority.csv",
                     "geog_col":"Geography_name"}
 
-fbook_covid_deaths_dict = {"name": "fbook_covid_deaths",
+fbook_covid_cases_dict = {"name": "fbook_covid_cases",
                     "url": f"{ROOT_DIR}/../../data/external/COVID-19 UK Cases.xlsx",
                     "geog_col":"LTLA Name"}
 
