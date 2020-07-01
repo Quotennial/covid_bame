@@ -8,11 +8,13 @@ Just want to see what we've come up with? Check out [reports](reports), otherwis
 ## Current Data 
 - **Covid Deaths**: ONS [Deaths involving COVID](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/deathsinvolvingcovid19intheuk)
 - **Covid Deaths**: - Data used in the [UK COVID BAME report](https://www.gov.uk/government/publications/covid-19-review-of-disparities-in-risks-and-outcomes)
-- **Covid Deaths**: Subnational level data is used from the amazing Yin Lin who curates this data daily: [Daily updated facebook page](https://www.facebook.com/groups/224857015370702/)
+- **Covid Cases**: Subnational level data is used from the amazing Yin Lin who curates this data daily: [Daily updated facebook page](https://www.facebook.com/groups/224857015370702/)
 
 - **Ethnicity Census data** gives ethnicity breakdown by local authoratitive region [2011 census](https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest#data-sources)
 - **Furlough Data**
-- **Key Workers Data**[link](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/keyworkersreferencetables)
+- **Key Workers Data** [link](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/keyworkersreferencetables)
+- **Deprivation Index** [link]("https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/833970/File_1_-_IMD2019_Index_of_Multiple_Deprivation.xlsx)
+
 
 ## Data Backlog 
 - Amenities from OSM?
@@ -27,7 +29,22 @@ Just want to see what we've come up with? Check out [reports](reports), otherwis
 - **or** to use in notebooks;
 ```python
 import datastore
-datastore.lib # gives list of datasets 
+datastore.lib # gives list of datasets
+```
+```python
+{'mortality': ['fbook_covid_data',
+  'bame_rpt_deaths',
+  'bame_rpt_excess_deaths',
+  'ons_deaths'],
+ 'explanatory': ['ethnicity_data',
+  'bame_rpt_cases',
+  'furlough_data',
+  'key_workers',
+  'deprivation'],
+ 'other': ['lad_geog']}
+ ```
+
+```python
 datastore.ethnicity_data.data_url # url of original source
 datastore.ethnicity_data.df # the data as a dataframe
 ```
@@ -37,7 +54,3 @@ Yes please! The repo is structured to separate the data *getting and cleaning* f
  
 Repo structure based on the [cookiecutter data science project template](https://drivendata.github.io/cookiecutter-data-science/)
 
-## Backlog 
-- add incidence of amminites (such as super markets?)
-- care home and job data
-- use causality approaches
