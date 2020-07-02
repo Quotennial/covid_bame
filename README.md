@@ -14,7 +14,7 @@ Just want to see what we've come up with? Check out [reports](reports), otherwis
 - **Furlough Data**
 - **Key Workers Data** [link](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/keyworkersreferencetables)
 - **Deprivation Index** [link]("https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/833970/File_1_-_IMD2019_Index_of_Multiple_Deprivation.xlsx)
-
+- **Population Estimates** [link](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland)
 
 ## Data Backlog 
 - Amenities from OSM?
@@ -27,9 +27,12 @@ Just want to see what we've come up with? Check out [reports](reports), otherwis
 - to start the data import - run `src/data/datastore.py`
 - then can import processed data ins csv form from `data/interim`
 - **or** to use in notebooks;
+
 ```python
-import datastore
-datastore.lib # gives list of datasets
+import sys
+sys.path.insert(0, '../src/data')
+import bame_datastore
+bame_datastore.lib # gives list of datasets
 ```
 ```python
 {'mortality': ['fbook_covid_data',
