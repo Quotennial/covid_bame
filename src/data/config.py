@@ -44,3 +44,7 @@ key_workers_dict = {"name": "key_workers",
 deprivation_dict = {"name": "deprivation_data",
             "url":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/833970/File_1_-_IMD2019_Index_of_Multiple_Deprivation.xlsx",
             "geog_col":"Local Authority District name (2019)"}
+
+pop_est_dict = {"name": "population_est_data",
+            "url":"https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fpopulationestimatesforukenglandandwalesscotlandandnorthernireland%2fmid2019april2020localauthoritydistrictcodes/ukmidyearestimates20192020ladcodes.xls",
+            "geog_col":"Name"}

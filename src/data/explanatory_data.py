@@ -56,14 +56,14 @@ def read_deprivation(url:str)->pd.DataFrame:
     df = depriv_df_mean.join(depriv_df_std, lsuffix="_avg", rsuffix="_std").reset_index()
     return df
 
+def read_pop_est(url:str)->pd.DataFrame:
+    r = requests.get(url)
+    fpath = f"{ROOT_DIR}/../../data/external/pop_est.xlsx"
+    with open(fpath, 'wb') as outfile:
+        outfile.write(r.content)
+    df_read = pd.read_excel(fpath, sheet_name="MYE2 - Persons", skiprows=4).dropna()
+    return df_read
 if __name__ == "__main__":
-
-    # TODO put these config variables in some config file
-    ethnic_data_name = "ethnicity_2011"
-    ethnic_url = "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/ethnic-population-by-local-authority.csv"
-    ethnic_lad = "Geography_name"
-    ethnicity_data = Dataset(data_name=ethnic_data_name,
-                            data_url=ethnic_url, lad_col=ethnic_lad)
-    ethnicity_data.read_data(read_ethnicity_data)
+    pass
 
 
