@@ -26,13 +26,18 @@ def read_ons_deaths(url:str)->pd.DataFrame:
     fpath = f"{ROOT_DIR}/../../data/external/ons_covid.xlsx"
     with open(fpath, 'wb') as outfile:
         outfile.write(r.content)
-    cases_df = pd.read_excel(fpath, sheet_name="Table 2", skiprows=4, nrows=390)
-    cases_df.drop(['Unnamed: 6', 'Unnamed: 9', 'Unnamed: 12'], axis=1, inplace =True)
-    cases_df.columns = ["Sex","Geography","Area code","Area Name", 
-                    "all_Deaths", "all_Rate", "all Lower CI", "all Upper CI", 
-                    "covid_Deaths", "covid_Rate", "covid Lower CI", "covid Upper CI"]
+    deaths_df_raw = pd.read_excel(fpath, sheet_name="Registrations - All data", skiprows=3)
 
-    return cases_df
+    area_nme_col = deaths_df_raw.columns[2] # becasue of trailing space in column name 
+    deaths_df = deaths_df_raw.groupby([area_nme_col,'Cause of death', 'Week number']).sum() #get counts by week no.
+    deaths_df = deaths_df.groupby([area_nme_col,'Cause of death']).sum().reset_index() # get total counts
+    
+    deaths_df = deaths_df.pivot(index = "Area name ", columns = "Cause of death") #format columns
+    deaths_df.columns = deaths_df.columns.map(''.join)
+    deaths_df = deaths_df.reset_index()
+    deaths_df.columns = ["Area Name", "deaths_all", "deaths_covid"]
+
+    return deaths_df
 
 
 if __name__ == "main":

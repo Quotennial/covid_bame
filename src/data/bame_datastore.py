@@ -39,7 +39,6 @@ lib = {"mortality": ["fbook_covid_data", "bame_rpt_deaths", "bame_rpt_excess_dea
     "other":["lad_geog"]}
 
 if __name__ == "main":
-    pop_est = gen_obj(config.pop_est_dict, read_pop_est)
-
+    ons_deaths = gen_obj(config.ons_deaths_dict, read_ons_deaths)
 
     

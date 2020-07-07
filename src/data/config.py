@@ -24,7 +24,8 @@ bame_excess_deaths_dict = {"name": "bame_excess_deaths",
                     "geog_col": "Area Name"}
 
 ons_deaths_dict = {"name": "ons_deaths",
-            "url":"https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fbirthsdeathsandmarriages%2fdeaths%2fdatasets%2fdeathsinvolvingcovid19bylocalareaanddeprivation%2f1march2020to17april2020/referencetablesdraft.xlsx",
+            "url":"https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fhealthandsocialcare%2fcausesofdeath%2fdatasets%2fdeathregistrationsandoccurrencesbylocalauthorityandhealthboard%2f2020/lahbtablesweek26.xlsx",
+            "page_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard",
             "geog_col":"Area Name"}
 
 #### EXPLANATORY DATA ######
