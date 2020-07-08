@@ -29,13 +29,14 @@ def read_ons_deaths(url:str)->pd.DataFrame:
     deaths_df_raw = pd.read_excel(fpath, sheet_name="Registrations - All data", skiprows=3)
 
     area_nme_col = deaths_df_raw.columns[2] # becasue of trailing space in column name 
-    deaths_df = deaths_df_raw.groupby([area_nme_col,'Cause of death', 'Week number']).sum() #get counts by week no.
-    deaths_df = deaths_df.groupby([area_nme_col,'Cause of death']).sum().reset_index() # get total counts
-    
-    deaths_df = deaths_df.pivot(index = "Area name ", columns = "Cause of death") #format columns
+    area_cd_col = deaths_df_raw.columns[0] # becasue of trailing space in column name 
+    deaths_df = deaths_df_raw.groupby([area_cd_col, area_nme_col,'Cause of death', 'Week number']).sum() #get counts by week no.
+    deaths_df = deaths_df.groupby([area_cd_col, area_nme_col,'Cause of death']).sum().reset_index() # get total counts
+    deaths_df = deaths_df.pivot(index = area_cd_col, columns = "Cause of death") #format columns
     deaths_df.columns = deaths_df.columns.map(''.join)
-    deaths_df = deaths_df.reset_index()
-    deaths_df.columns = ["Area Name", "deaths_all", "deaths_covid"]
+    deaths_df = deaths_df.reset_index().drop(columns = [deaths_df.columns[1]])
+    deaths_df.columns = ["Area code", "Area Name", "deaths_all", "deaths_covid"]
+    deaths_df
 
     return deaths_df
 

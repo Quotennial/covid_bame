@@ -1,344 +1,344 @@
-Area Name,deaths_all,deaths_covid
-Adur,415,39
-Allerdale,704,67
-Amber Valley,826,99
-Aneurin Bevan University Health Board,3634,495
-Arun,1265,67
-Ashfield,784,139
-Ashford,733,134
-Babergh,617,59
-Barking and Dagenham,850,164
-Barnet,1762,453
-Barnsley,1622,236
-Barrow-in-Furness,484,76
-Basildon,1039,197
-Basingstoke and Deane,902,117
-Bassetlaw,720,67
-Bath and North East Somerset,987,90
-Bedford,969,155
-Betsi Cadwaladr University Health Board,4532,489
-Bexley,1292,225
-Birmingham,5915,1162
-Blaby,525,76
-Blackburn with Darwen,781,90
-Blackpool,1146,135
-Blaenau Gwent,503,64
-Bolsover,498,54
-Bolton,1702,313
-Boston,438,35
-"Bournemouth, Christchurch and Poole",2425,184
-Bracknell Forest,471,70
-Bradford,2895,488
-Braintree,881,116
-Breckland,967,89
-Brent,1411,484
-Brentwood,489,83
-Bridgend,939,90
-Brighton and Hove,1215,156
-"Bristol, City of",1984,248
-Broadland,828,70
-Bromley,1675,338
-Bromsgrove,695,133
-Broxbourne,532,74
-Broxtowe,664,98
-Buckinghamshire,2724,385
-Burnley,584,61
-Bury,1145,229
-Caerphilly,1073,130
-Calderdale,1183,113
-Cambridge,473,81
-Camden,794,158
-Cannock Chase,540,75
-Canterbury,978,118
-Cardiff,1750,365
-Cardiff and Vale University Health Board,2514,464
-Carlisle,775,126
-Carmarthenshire,1262,84
-Castle Point,647,89
-Central Bedfordshire,1469,261
-Ceredigion,470,7
-Charnwood,910,115
-Chelmsford,967,144
-Cheltenham,720,133
-Cherwell,829,114
-Cheshire East,2651,521
-Cheshire West and Chester,2202,383
-Chesterfield,718,83
-Chichester,920,77
-Chorley,774,112
-City of London,27,5
-Colchester,884,108
-Conwy,831,89
-Copeland,475,61
-Corby,349,48
-Cornwall,3537,203
-Cotswold,582,57
-County Durham,3666,692
-Coventry,1840,276
-Craven,420,64
-Crawley,487,76
-Croydon,1836,484
-Cwm Taf Morgannwg University Health Board,2959,446
-Dacorum,822,117
-Darlington,748,87
-Dartford,594,112
-Daventry,482,74
-Denbighshire,738,98
-Derby,1602,301
-Derbyshire Dales,490,77
-Doncaster,1968,240
-Dorset,2696,161
-Dover,816,111
-Dudley,2086,293
-Ealing,1486,403
-East Cambridgeshire,469,50
-East Devon,1007,49
-East Hampshire,690,82
-East Hertfordshire,748,99
-East Lindsey,1120,49
-East Northamptonshire,563,96
-East Riding of Yorkshire,2434,304
-East Staffordshire,766,146
-East Suffolk,1880,218
-Eastbourne,711,67
-Eastleigh,646,98
-Eden,306,41
-Elmbridge,709,108
-Enfield,1556,384
-Epping Forest,901,181
-Epsom and Ewell,408,79
-Erewash,760,95
-Exeter,590,39
-Fareham,752,98
-Fenland,743,79
-Flintshire,923,127
-Folkestone and Hythe,801,121
-Forest of Dean,533,46
-Fylde,662,86
-Gateshead,1405,235
-Gedling,734,118
-Gloucester,784,144
-Gosport,529,56
-Gravesham,653,86
-Great Yarmouth,648,47
-Greenwich,1117,223
-Guildford,668,91
-Gwynedd,764,67
-Hackney,800,222
-Halton,808,125
-Hambleton,594,70
-Hammersmith and Fulham,697,167
-Harborough,562,57
-Haringey,938,269
-Harlow,464,71
-Harrogate,1105,188
-Harrow,1242,397
-Hart,407,47
-Hartlepool,616,108
-Hastings,539,9
-Havant,850,108
-Havering,1566,272
-"Herefordshire, County of",1288,122
-Hertsmere,715,177
-High Peak,569,101
-Hillingdon,1364,307
-Hinckley and Bosworth,696,99
-Horsham,899,116
-Hounslow,1080,228
-Huntingdonshire,949,124
-Hyndburn,492,57
-Hywel Dda University Health Board,2560,131
-Ipswich,742,123
-Isle of Anglesey,457,31
-Isle of Wight,1010,79
-Isles of Scilly,7,0
-Islington,727,150
-Kensington and Chelsea,529,124
-Kettering,593,95
-King's Lynn and West Norfolk,1132,142
-"Kingston upon Hull, City of",1541,203
-Kingston upon Thames,741,129
-Kirklees,2326,306
-Knowsley,966,143
-Lambeth,1106,287
-Lancaster,816,68
-Leeds,4149,686
-Leicester,1658,282
-Lewes,749,110
-Lewisham,1151,290
-Lichfield,709,113
-Lincoln,529,27
-Liverpool,2947,556
-Luton,1021,208
-Maidstone,921,110
-Maldon,417,34
-Malvern Hills,620,46
-Manchester,2314,381
-Mansfield,700,70
-Medway,1356,182
-Melton,296,25
-Mendip,663,28
-Merthyr Tydfil,405,65
-Merton,887,201
-Mid Devon,450,17
-Mid Suffolk,633,76
-Mid Sussex,898,163
-Middlesbrough,1003,204
-Milton Keynes,1196,195
-Mole Valley,625,105
-Monmouthshire,548,74
-Neath Port Talbot,968,102
-New Forest,1328,129
-Newark and Sherwood,740,75
-Newcastle upon Tyne,1631,244
-Newcastle-under-Lyme,831,136
-Newham,1057,305
-Newport,923,161
-North Devon,605,26
-North East Derbyshire,734,137
-North East Lincolnshire,888,34
-North Hertfordshire,753,96
-North Kesteven,718,42
-North Lincolnshire,1050,100
-North Norfolk,859,52
-North Somerset,1402,136
-North Tyneside,1262,151
-North Warwickshire,500,80
-North West Leicestershire,593,64
-Northampton,1292,260
-Northumberland,2102,267
-Norwich,676,22
-Nottingham,1455,229
-Nuneaton and Bedworth,875,144
-Oadby and Wigston,396,63
-Oldham,1348,251
-Oxford,558,74
-Pembrokeshire,828,40
-Pendle,566,74
-Peterborough,961,97
-Plymouth,1392,87
-Portsmouth,957,104
-Powys,954,92
-Powys Teaching Health Board,954,92
-Preston,844,129
-Reading,767,165
-Redbridge,1290,310
-Redcar and Cleveland,952,133
-Redditch,461,59
-Reigate and Banstead,909,178
-Rhondda Cynon Taf,1615,291
-Ribble Valley,374,23
-Richmond upon Thames,765,147
-Richmondshire,325,49
-Rochdale,1308,221
-Rochford,550,85
-Rossendale,437,51
-Rother,741,53
-Rotherham,1887,313
-Rugby,600,73
-Runnymede,492,70
-Rushcliffe,637,82
-Rushmoor,447,82
-Rutland,233,23
-Ryedale,336,31
-Salford,1459,313
-Sandwell,2067,358
-Scarborough,833,81
-Sedgemoor,843,67
-Sefton,2187,279
-Selby,450,44
-Sevenoaks,703,95
-Sheffield,3288,558
-Shropshire,2117,246
-Slough,536,107
-Solihull,1458,258
-Somerset West and Taunton,1040,44
-South Cambridgeshire,686,60
-South Derbyshire,587,105
-South Gloucestershire,1386,167
-South Hams,488,12
-South Holland,638,55
-South Kesteven,834,66
-South Lakeland,887,148
-South Norfolk,787,54
-South Northamptonshire,437,54
-South Oxfordshire,737,116
-South Ribble,618,90
-South Somerset,1034,56
-South Staffordshire,804,90
-South Tyneside,1052,159
-Southampton,1116,161
-Southend-on-Sea,1202,190
-Southwark,975,248
-Spelthorne,553,89
-St Albans,759,121
-St. Helens,1191,192
-Stafford,821,117
-Staffordshire Moorlands,665,68
-Stevenage,470,58
-Stockport,1814,337
-Stockton-on-Tees,1056,143
-Stoke-on-Trent,1543,190
-Stratford-on-Avon,930,162
-Stroud,718,92
-Sunderland,1895,333
-Surrey Heath,594,88
-Sutton,976,177
-Swale,862,117
-Swansea,1590,201
-Swansea Bay University Health Board,2558,303
-Swindon,1138,166
-Tameside,1495,281
-Tamworth,405,62
-Tandridge,554,92
-Teignbridge,873,33
-Telford and Wrekin,964,99
-Tendring,1328,164
-Test Valley,761,114
-Tewkesbury,545,104
-Thanet,1117,140
-Three Rivers,492,87
-Thurrock,855,142
-Tonbridge and Malling,620,72
-Torbay,983,58
-Torfaen,587,66
-Torridge,455,20
-Tower Hamlets,723,186
-Trafford,1326,227
-Tunbridge Wells,651,75
-Uttlesford,465,62
-Vale of Glamorgan,764,99
-Vale of White Horse,690,121
-Wakefield,2173,330
-Walsall,1815,366
-Waltham Forest,986,248
-Wandsworth,1013,210
-Warrington,1235,225
-Warwick,726,92
-Watford,496,118
-Waverley,799,137
-Wealden,1025,111
-Wellingborough,478,66
-Welwyn Hatfield,614,108
-West Berkshire,771,131
-West Devon,383,15
-West Lancashire,812,114
-West Lindsey,568,22
-West Oxfordshire,678,118
-West Suffolk,982,73
-Westminster,812,183
-Wigan,1986,342
-Wiltshire,2972,358
-Winchester,654,108
-Windsor and Maidenhead,850,128
-Wirral,2444,422
-Woking,525,73
-Wokingham,757,148
-Wolverhampton,1807,300
-Worcester,558,61
-Worthing,800,77
-Wrexham,819,77
-Wychavon,793,106
-Wyre,896,111
-Wyre Forest,729,113
-York,1148,163
+Area code,Area Name,deaths_all,deaths_covid
+E06000001,Hartlepool,616,108
+E06000002,Middlesbrough,1003,204
+E06000003,Redcar and Cleveland,952,133
+E06000004,Stockton-on-Tees,1056,143
+E06000005,Darlington,748,87
+E06000006,Halton,808,125
+E06000007,Warrington,1235,225
+E06000008,Blackburn with Darwen,781,90
+E06000009,Blackpool,1146,135
+E06000010,"Kingston upon Hull, City of",1541,203
+E06000011,East Riding of Yorkshire,2434,304
+E06000012,North East Lincolnshire,888,34
+E06000013,North Lincolnshire,1050,100
+E06000014,York,1148,163
+E06000015,Derby,1602,301
+E06000016,Leicester,1658,282
+E06000017,Rutland,233,23
+E06000018,Nottingham,1455,229
+E06000019,"Herefordshire, County of",1288,122
+E06000020,Telford and Wrekin,964,99
+E06000021,Stoke-on-Trent,1543,190
+E06000022,Bath and North East Somerset,987,90
+E06000023,"Bristol, City of",1984,248
+E06000024,North Somerset,1402,136
+E06000025,South Gloucestershire,1386,167
+E06000026,Plymouth,1392,87
+E06000027,Torbay,983,58
+E06000030,Swindon,1138,166
+E06000031,Peterborough,961,97
+E06000032,Luton,1021,208
+E06000033,Southend-on-Sea,1202,190
+E06000034,Thurrock,855,142
+E06000035,Medway,1356,182
+E06000036,Bracknell Forest,471,70
+E06000037,West Berkshire,771,131
+E06000038,Reading,767,165
+E06000039,Slough,536,107
+E06000040,Windsor and Maidenhead,850,128
+E06000041,Wokingham,757,148
+E06000042,Milton Keynes,1196,195
+E06000043,Brighton and Hove,1215,156
+E06000044,Portsmouth,957,104
+E06000045,Southampton,1116,161
+E06000046,Isle of Wight,1010,79
+E06000047,County Durham,3666,692
+E06000049,Cheshire East,2651,521
+E06000050,Cheshire West and Chester,2202,383
+E06000051,Shropshire,2117,246
+E06000052,Cornwall,3537,203
+E06000053,Isles of Scilly,7,0
+E06000054,Wiltshire,2972,358
+E06000055,Bedford,969,155
+E06000056,Central Bedfordshire,1469,261
+E06000057,Northumberland,2102,267
+E06000058,"Bournemouth, Christchurch and Poole",2425,184
+E06000059,Dorset,2696,161
+E06000060,Buckinghamshire,2724,385
+E07000008,Cambridge,473,81
+E07000009,East Cambridgeshire,469,50
+E07000010,Fenland,743,79
+E07000011,Huntingdonshire,949,124
+E07000012,South Cambridgeshire,686,60
+E07000026,Allerdale,704,67
+E07000027,Barrow-in-Furness,484,76
+E07000028,Carlisle,775,126
+E07000029,Copeland,475,61
+E07000030,Eden,306,41
+E07000031,South Lakeland,887,148
+E07000032,Amber Valley,826,99
+E07000033,Bolsover,498,54
+E07000034,Chesterfield,718,83
+E07000035,Derbyshire Dales,490,77
+E07000036,Erewash,760,95
+E07000037,High Peak,569,101
+E07000038,North East Derbyshire,734,137
+E07000039,South Derbyshire,587,105
+E07000040,East Devon,1007,49
+E07000041,Exeter,590,39
+E07000042,Mid Devon,450,17
+E07000043,North Devon,605,26
+E07000044,South Hams,488,12
+E07000045,Teignbridge,873,33
+E07000046,Torridge,455,20
+E07000047,West Devon,383,15
+E07000061,Eastbourne,711,67
+E07000062,Hastings,539,9
+E07000063,Lewes,749,110
+E07000064,Rother,741,53
+E07000065,Wealden,1025,111
+E07000066,Basildon,1039,197
+E07000067,Braintree,881,116
+E07000068,Brentwood,489,83
+E07000069,Castle Point,647,89
+E07000070,Chelmsford,967,144
+E07000071,Colchester,884,108
+E07000072,Epping Forest,901,181
+E07000073,Harlow,464,71
+E07000074,Maldon,417,34
+E07000075,Rochford,550,85
+E07000076,Tendring,1328,164
+E07000077,Uttlesford,465,62
+E07000078,Cheltenham,720,133
+E07000079,Cotswold,582,57
+E07000080,Forest of Dean,533,46
+E07000081,Gloucester,784,144
+E07000082,Stroud,718,92
+E07000083,Tewkesbury,545,104
+E07000084,Basingstoke and Deane,902,117
+E07000085,East Hampshire,690,82
+E07000086,Eastleigh,646,98
+E07000087,Fareham,752,98
+E07000088,Gosport,529,56
+E07000089,Hart,407,47
+E07000090,Havant,850,108
+E07000091,New Forest,1328,129
+E07000092,Rushmoor,447,82
+E07000093,Test Valley,761,114
+E07000094,Winchester,654,108
+E07000095,Broxbourne,532,74
+E07000096,Dacorum,822,117
+E07000098,Hertsmere,715,177
+E07000099,North Hertfordshire,753,96
+E07000102,Three Rivers,492,87
+E07000103,Watford,496,118
+E07000105,Ashford,733,134
+E07000106,Canterbury,978,118
+E07000107,Dartford,594,112
+E07000108,Dover,816,111
+E07000109,Gravesham,653,86
+E07000110,Maidstone,921,110
+E07000111,Sevenoaks,703,95
+E07000112,Folkestone and Hythe,801,121
+E07000113,Swale,862,117
+E07000114,Thanet,1117,140
+E07000115,Tonbridge and Malling,620,72
+E07000116,Tunbridge Wells,651,75
+E07000117,Burnley,584,61
+E07000118,Chorley,774,112
+E07000119,Fylde,662,86
+E07000120,Hyndburn,492,57
+E07000121,Lancaster,816,68
+E07000122,Pendle,566,74
+E07000123,Preston,844,129
+E07000124,Ribble Valley,374,23
+E07000125,Rossendale,437,51
+E07000126,South Ribble,618,90
+E07000127,West Lancashire,812,114
+E07000128,Wyre,896,111
+E07000129,Blaby,525,76
+E07000130,Charnwood,910,115
+E07000131,Harborough,562,57
+E07000132,Hinckley and Bosworth,696,99
+E07000133,Melton,296,25
+E07000134,North West Leicestershire,593,64
+E07000135,Oadby and Wigston,396,63
+E07000136,Boston,438,35
+E07000137,East Lindsey,1120,49
+E07000138,Lincoln,529,27
+E07000139,North Kesteven,718,42
+E07000140,South Holland,638,55
+E07000141,South Kesteven,834,66
+E07000142,West Lindsey,568,22
+E07000143,Breckland,967,89
+E07000144,Broadland,828,70
+E07000145,Great Yarmouth,648,47
+E07000146,King's Lynn and West Norfolk,1132,142
+E07000147,North Norfolk,859,52
+E07000148,Norwich,676,22
+E07000149,South Norfolk,787,54
+E07000150,Corby,349,48
+E07000151,Daventry,482,74
+E07000152,East Northamptonshire,563,96
+E07000153,Kettering,593,95
+E07000154,Northampton,1292,260
+E07000155,South Northamptonshire,437,54
+E07000156,Wellingborough,478,66
+E07000163,Craven,420,64
+E07000164,Hambleton,594,70
+E07000165,Harrogate,1105,188
+E07000166,Richmondshire,325,49
+E07000167,Ryedale,336,31
+E07000168,Scarborough,833,81
+E07000169,Selby,450,44
+E07000170,Ashfield,784,139
+E07000171,Bassetlaw,720,67
+E07000172,Broxtowe,664,98
+E07000173,Gedling,734,118
+E07000174,Mansfield,700,70
+E07000175,Newark and Sherwood,740,75
+E07000176,Rushcliffe,637,82
+E07000177,Cherwell,829,114
+E07000178,Oxford,558,74
+E07000179,South Oxfordshire,737,116
+E07000180,Vale of White Horse,690,121
+E07000181,West Oxfordshire,678,118
+E07000187,Mendip,663,28
+E07000188,Sedgemoor,843,67
+E07000189,South Somerset,1034,56
+E07000192,Cannock Chase,540,75
+E07000193,East Staffordshire,766,146
+E07000194,Lichfield,709,113
+E07000195,Newcastle-under-Lyme,831,136
+E07000196,South Staffordshire,804,90
+E07000197,Stafford,821,117
+E07000198,Staffordshire Moorlands,665,68
+E07000199,Tamworth,405,62
+E07000200,Babergh,617,59
+E07000202,Ipswich,742,123
+E07000203,Mid Suffolk,633,76
+E07000207,Elmbridge,709,108
+E07000208,Epsom and Ewell,408,79
+E07000209,Guildford,668,91
+E07000210,Mole Valley,625,105
+E07000211,Reigate and Banstead,909,178
+E07000212,Runnymede,492,70
+E07000213,Spelthorne,553,89
+E07000214,Surrey Heath,594,88
+E07000215,Tandridge,554,92
+E07000216,Waverley,799,137
+E07000217,Woking,525,73
+E07000218,North Warwickshire,500,80
+E07000219,Nuneaton and Bedworth,875,144
+E07000220,Rugby,600,73
+E07000221,Stratford-on-Avon,930,162
+E07000222,Warwick,726,92
+E07000223,Adur,415,39
+E07000224,Arun,1265,67
+E07000225,Chichester,920,77
+E07000226,Crawley,487,76
+E07000227,Horsham,899,116
+E07000228,Mid Sussex,898,163
+E07000229,Worthing,800,77
+E07000234,Bromsgrove,695,133
+E07000235,Malvern Hills,620,46
+E07000236,Redditch,461,59
+E07000237,Worcester,558,61
+E07000238,Wychavon,793,106
+E07000239,Wyre Forest,729,113
+E07000240,St Albans,759,121
+E07000241,Welwyn Hatfield,614,108
+E07000242,East Hertfordshire,748,99
+E07000243,Stevenage,470,58
+E07000244,East Suffolk,1880,218
+E07000245,West Suffolk,982,73
+E07000246,Somerset West and Taunton,1040,44
+E08000001,Bolton,1702,313
+E08000002,Bury,1145,229
+E08000003,Manchester,2314,381
+E08000004,Oldham,1348,251
+E08000005,Rochdale,1308,221
+E08000006,Salford,1459,313
+E08000007,Stockport,1814,337
+E08000008,Tameside,1495,281
+E08000009,Trafford,1326,227
+E08000010,Wigan,1986,342
+E08000011,Knowsley,966,143
+E08000012,Liverpool,2947,556
+E08000013,St. Helens,1191,192
+E08000014,Sefton,2187,279
+E08000015,Wirral,2444,422
+E08000016,Barnsley,1622,236
+E08000017,Doncaster,1968,240
+E08000018,Rotherham,1887,313
+E08000019,Sheffield,3288,558
+E08000021,Newcastle upon Tyne,1631,244
+E08000022,North Tyneside,1262,151
+E08000023,South Tyneside,1052,159
+E08000024,Sunderland,1895,333
+E08000025,Birmingham,5915,1162
+E08000026,Coventry,1840,276
+E08000027,Dudley,2086,293
+E08000028,Sandwell,2067,358
+E08000029,Solihull,1458,258
+E08000030,Walsall,1815,366
+E08000031,Wolverhampton,1807,300
+E08000032,Bradford,2895,488
+E08000033,Calderdale,1183,113
+E08000034,Kirklees,2326,306
+E08000035,Leeds,4149,686
+E08000036,Wakefield,2173,330
+E08000037,Gateshead,1405,235
+E09000001,City of London,27,5
+E09000002,Barking and Dagenham,850,164
+E09000003,Barnet,1762,453
+E09000004,Bexley,1292,225
+E09000005,Brent,1411,484
+E09000006,Bromley,1675,338
+E09000007,Camden,794,158
+E09000008,Croydon,1836,484
+E09000009,Ealing,1486,403
+E09000010,Enfield,1556,384
+E09000011,Greenwich,1117,223
+E09000012,Hackney,800,222
+E09000013,Hammersmith and Fulham,697,167
+E09000014,Haringey,938,269
+E09000015,Harrow,1242,397
+E09000016,Havering,1566,272
+E09000017,Hillingdon,1364,307
+E09000018,Hounslow,1080,228
+E09000019,Islington,727,150
+E09000020,Kensington and Chelsea,529,124
+E09000021,Kingston upon Thames,741,129
+E09000022,Lambeth,1106,287
+E09000023,Lewisham,1151,290
+E09000024,Merton,887,201
+E09000025,Newham,1057,305
+E09000026,Redbridge,1290,310
+E09000027,Richmond upon Thames,765,147
+E09000028,Southwark,975,248
+E09000029,Sutton,976,177
+E09000030,Tower Hamlets,723,186
+E09000031,Waltham Forest,986,248
+E09000032,Wandsworth,1013,210
+E09000033,Westminster,812,183
+W06000001,Isle of Anglesey,457,31
+W06000002,Gwynedd,764,67
+W06000003,Conwy,831,89
+W06000004,Denbighshire,738,98
+W06000005,Flintshire,923,127
+W06000006,Wrexham,819,77
+W06000008,Ceredigion,470,7
+W06000009,Pembrokeshire,828,40
+W06000010,Carmarthenshire,1262,84
+W06000011,Swansea,1590,201
+W06000012,Neath Port Talbot,968,102
+W06000013,Bridgend,939,90
+W06000014,Vale of Glamorgan,764,99
+W06000015,Cardiff,1750,365
+W06000016,Rhondda Cynon Taf,1615,291
+W06000018,Caerphilly,1073,130
+W06000019,Blaenau Gwent,503,64
+W06000020,Torfaen,587,66
+W06000021,Monmouthshire,548,74
+W06000022,Newport,923,161
+W06000023,Powys,954,92
+W06000024,Merthyr Tydfil,405,65
+W11000023,Betsi Cadwaladr University Health Board,4532,489
+W11000024,Powys Teaching Health Board,954,92
+W11000025,Hywel Dda University Health Board,2560,131
+W11000028,Aneurin Bevan University Health Board,3634,495
+W11000029,Cardiff and Vale University Health Board,2514,464
+W11000030,Cwm Taf Morgannwg University Health Board,2959,446
+W11000031,Swansea Bay University Health Board,2558,303

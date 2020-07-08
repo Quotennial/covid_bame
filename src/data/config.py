@@ -2,8 +2,9 @@ import os
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__)) # This is your Project Root
 
 
-lad_dict = {"name": "Local_Authority_Districts__December_2009__Boundaries",
-                    "url": "https://opendata.arcgis.com/datasets/5e14c6bedc8740d19683517e5e902057_3.geojson",
+lad_dict = {"name": "Local_Authority_Districts__December_2017__Boundaries_in_the_UK__WGS84_",
+                    "url": "http://geoportal1-ons.opendata.arcgis.com/datasets/fab4feab211c4899b602ecfbfbc420a3_2.geojson?outSR={%22latestWkid%22:4326,%22wkid%22:4326}",
+                    "page_url": "http://geoportal1-ons.opendata.arcgis.com/datasets/fab4feab211c4899b602ecfbfbc420a3_2.geojson?outSR={%22latestWkid%22:4326,%22wkid%22:4326}",
                     "geog_col":"geometry"}
 
 #### COVID DATA #######
@@ -26,16 +27,16 @@ bame_excess_deaths_dict = {"name": "bame_excess_deaths",
 ons_deaths_dict = {"name": "ons_deaths",
             "url":"https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fhealthandsocialcare%2fcausesofdeath%2fdatasets%2fdeathregistrationsandoccurrencesbylocalauthorityandhealthboard%2f2020/lahbtablesweek26.xlsx",
             "page_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard",
-            "geog_col":"Area Name"}
+            "geog_col":"Area code"}
 
 #### EXPLANATORY DATA ######
 ethnicity_dict = {"name": "ethnicity_2011",
                     "url": "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/ethnic-population-by-local-authority.csv",
-                    "geog_col":"Geography_name"}
+                    "geog_col":"Geography_code"}
 
 furlough_dict = {"name": "furlough_data",
             "url":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/891607/Coronavirus_Job_Retention_Scheme_Statistics_Tables_June_2020.xlsx",
-            "geog_col":"Area Name"}
+            "geog_col":"Area Code"}
 
 key_workers_dict = {"name": "key_workers",
             "url":"https://www.ons.gov.uk/file?uri=%2femploymentandlabourmarket%2fpeopleinwork%2fearningsandworkinghours%2fdatasets%2fkeyworkersreferencetables%2fcurrent/keyworkersreferencetableupdated.xlsx",
@@ -44,8 +45,8 @@ key_workers_dict = {"name": "key_workers",
 
 deprivation_dict = {"name": "deprivation_data",
             "url":"https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/833970/File_1_-_IMD2019_Index_of_Multiple_Deprivation.xlsx",
-            "geog_col":"Local Authority District name (2019)"}
+            "geog_col":"Local Authority District code (2019)"}
 
 pop_est_dict = {"name": "population_est_data",
             "url":"https://www.ons.gov.uk/file?uri=%2fpeoplepopulationandcommunity%2fpopulationandmigration%2fpopulationestimates%2fdatasets%2fpopulationestimatesforukenglandandwalesscotlandandnorthernireland%2fmid2019april2020localauthoritydistrictcodes/ukmidyearestimates20192020ladcodes.xls",
-            "geog_col":"Name"}
+            "geog_col":"Code"}
