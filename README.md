@@ -6,6 +6,7 @@ This repo aims to bring together and analyse spatial data relevant to the impact
 Just want to see what we've come up with? Check out [reports](reports), otherwise clone the repo and get the data!
 
 ## Current Data 
+- **Excess Deaths**: Angus, Colin (2020): COVID-19 Local Authority Death and Case Plots. The University of Sheffield. Online resource. https://doi.org/10.15131/shef.data.12658088 
 - **Covid Deaths**: ONS [Deaths involving COVID](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandwellbeing/datasets/coronavirusandthesocialimpactsongreatbritaindata) released 03 July 2020
 - **Covid Deaths**: - Data used in the [UK COVID BAME report](https://www.gov.uk/government/publications/covid-19-review-of-disparities-in-risks-and-outcomes)
 - **Covid Cases**: Subnational level data is used from the amazing Yin Lin who curates this data daily: [Daily updated facebook page](https://www.facebook.com/groups/224857015370702/)

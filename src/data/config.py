@@ -29,6 +29,16 @@ ons_deaths_dict = {"name": "ons_deaths",
             "page_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard",
             "geog_col":"Area code"}
 
+excess_deaths_grp_dict = {"name": "excess_deaths_data_grp",
+            "url":"https://github.com/VictimOfMaths/COVID_LA_Plots/raw/master/LAExcess.csv",
+            "page_url": "https://github.com/VictimOfMaths/COVID_LA_Plots",
+            "geog_col": "code"}
+
+excess_deaths_loc_dict = {"name": "excess_deaths_data_loc",
+            "url":"https://github.com/VictimOfMaths/COVID_LA_Plots/raw/master/LAExcess.csv",
+            "page_url": "https://github.com/VictimOfMaths/COVID_LA_Plots",
+            "geog_col": "code"}
+
 #### EXPLANATORY DATA ######
 ethnicity_dict = {"name": "ethnicity_2011",
                     "url": "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest/downloads/ethnic-population-by-local-authority.csv",

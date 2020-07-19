@@ -40,6 +40,36 @@ def read_ons_deaths(url:str)->pd.DataFrame:
 
     return deaths_df
 
+def read_excess_deaths_grp(url:str)->pd.DataFrame:
+    raw_df = pd.read_csv(url, index_col=0)
+
+    df_max = raw_df.dropna().groupby(["code"]).max()
+    df_max = df_max[['name', 'week', 'pop']]
+
+    df_mean = raw_df.dropna().groupby(["code"]).mean()
+    df_mean = df_mean[['excessrate','othexcess','COVIDrate']]
+
+    df_sum = raw_df.groupby(["code"]).sum()
+    df_sum = df_sum[["deaths.1519", "AllCause.20", "COVID.20", "Other.20", "allexcess", "excessrate", "othexcess"]]
+    df = df_max.join(df_sum).join(df_mean, lsuffix="_sum", rsuffix="_mean")
+    df.to_csv("test.csv")
+    return df.reset_index()
+
+def read_excess_deaths_loc(url:str)->pd.DataFrame:
+    raw_df = pd.read_csv(url, index_col=0)
+
+    df_max = raw_df.dropna().groupby(["code", "location"]).max()
+    df_max = df_max[['name', 'week', 'pop']]
+
+    df_mean = raw_df.dropna().groupby(["code", "location"]).mean()
+    df_mean = df_mean[['excessrate','othexcess','COVIDrate']]
+
+    df_sum = raw_df.groupby(["code", "location"]).sum()
+    df_sum = df_sum[["deaths.1519", "AllCause.20", "COVID.20", "Other.20", "allexcess", "excessrate", "othexcess"]]
+
+    df = df_max.join(df_sum).join(df_mean, lsuffix="_sum", rsuffix="_mean")
+    return df.reset_index()
+
 
 if __name__ == "main":
     pass
