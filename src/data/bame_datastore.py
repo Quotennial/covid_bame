@@ -42,8 +42,5 @@ lib = {"mortality": ["excess_deaths_grp", "excess_deaths_loc","fbook_covid_data"
     "other":["lad_geog"]}
 
 if __name__ == "main":
-    excess_deaths_grp = gen_obj(config.excess_deaths_dict, read_excess_deaths_grp)
-    excess_deaths_loc = gen_obj(config.excess_deaths_dict, read_excess_deaths_loc)
-
-
+    ethnicity_data = gen_obj(config.ethnicity_dict, read_ethnicity_data)
     

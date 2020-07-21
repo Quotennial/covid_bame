@@ -17,6 +17,9 @@ def read_ethnicity_data(data_url: str) -> pd.DataFrame:
     drop = "% of national ethnic population in this LA area"
     # drop rows with national comparisons
     race_df_raw = race_df_raw[race_df_raw.Measure != drop]
+    race_df_raw = race_df_raw[race_df_raw.Measure == "% of local population in this ethnic group"]
+    race_df_raw = race_df_raw[race_df_raw.Ethnicity_type == "ONS 2011 5+1"]
+
     race_df = pd.pivot_table(race_df_raw,
                              index=["Geography_code",
                                     "Geography_name", "Denominator"],
